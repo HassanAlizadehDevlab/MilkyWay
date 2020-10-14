@@ -1,6 +1,8 @@
 /**
  * Declare all dependencies for the data layer
  * */
+apply plugin: 'com.apollographql.apollo'
+
 def apiProperties = new Properties()
 apiProperties.load(new FileInputStream(rootProject.file('api.properties')))
 
