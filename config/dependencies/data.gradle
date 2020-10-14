@@ -1,0 +1,45 @@
+/**
+ * Declare all dependencies for the data layer
+ * */
+def apiProperties = new Properties()
+apiProperties.load(new FileInputStream(rootProject.file('api.properties')))
+
+android {
+    defaultConfig {
+        buildConfigField "String", "BASE_URL", "\"${apiProperties['BASE_URL']}\""
+        buildConfigField "String", "PUBLIC_KEY", "\"${apiProperties['PUBLIC_KEY']}\""
+        buildConfigField "String", "PRIVATE_KEY", "\"${apiProperties['PRIVATE_KEY']}\""
+    }
+
+    sourceSets {
+        test {
+            java {
+                srcDir "../common_test/src/test/java"
+            }
+            resources {
+                srcDir "../common_test/src/test/resources"
+            }
+        }
+    }
+}
+
+dependencies {
+    def libraries = rootProject.ext.libraries
+
+    implementation project(':domain')
+    implementation project(':common')
+
+    kapt libraries.room.compiler
+    implementation libraries.gson
+    implementation libraries.retrofit.retrofit
+    implementation libraries.retrofit.converterGson
+    implementation libraries.retrofit.rxjavaAdapter
+    implementation libraries.okHttp.logging
+    implementation libraries.room.runtime
+    implementation libraries.room.rxJava
+    implementation libraries.apollo.runtime
+    implementation libraries.apollo.android
+    implementation libraries.apollo.rxJava
+
+    testImplementation project(':common_test')
+}

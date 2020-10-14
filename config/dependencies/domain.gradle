@@ -1,0 +1,31 @@
+/**
+ * Declare all dependencies for the domain layer
+ * */
+android {
+    sourceSets {
+        test {
+            java {
+                srcDir "../common_test/src/test/java"
+            }
+            resources {
+                srcDir "../common_test/src/test/resources"
+            }
+        }
+    }
+}
+
+
+dependencies {
+    def libraries = rootProject.ext.libraries
+
+    implementation project(':common')
+
+    implementation libraries.gson
+    implementation libraries.retrofit.retrofit
+    implementation libraries.retrofit.converterGson
+    implementation libraries.retrofit.rxjavaAdapter
+    implementation libraries.room.runtime
+    implementation libraries.room.rxJava
+
+    testImplementation project(':common_test')
+}

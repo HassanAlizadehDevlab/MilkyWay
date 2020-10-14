@@ -1,0 +1,44 @@
+/**
+ * Declare all dependencies for the presentation layer
+ * */
+android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    sourceSets {
+        test {
+            java {
+                srcDir "../common_test/src/test/java"
+            }
+            resources {
+                srcDir "../common_test/src/test/resources"
+            }
+        }
+    }
+}
+dependencies {
+    def libraries = rootProject.ext.libraries
+
+    implementation project(':domain')
+    implementation project(':common')
+
+
+    implementation libraries.android.glide
+    implementation libraries.dagger.support
+    implementation libraries.android.liveData
+    implementation libraries.android.constraintLayout
+    implementation libraries.android.androidxAppCompat
+    implementation libraries.android.lifecycleExtensions
+    implementation libraries.android.archComponentsStreams
+    implementation libraries.android.core_ktx
+    implementation libraries.android.swipeRefresh
+    implementation libraries.android.recyclerView
+    implementation libraries.gson
+    implementation libraries.android.location
+
+    testImplementation project(':common_test')
+    testImplementation libraries.gson
+    testImplementation libraries.test.android.archCore
+    testImplementation libraries.test.mockito.inline
+}

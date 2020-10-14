@@ -1,0 +1,21 @@
+apply from: "$rootDir/config/android/application.gradle"
+
+dependencies {
+    def libraries = rootProject.ext.libraries
+
+    implementation project(':domain')
+    implementation project(':data')
+    implementation project(':presentation')
+
+
+    kapt libraries.dagger.processor
+    kapt libraries.dagger.compiler
+
+    implementation libraries.dagger.support
+    implementation libraries.kotlin.kotlin
+    implementation libraries.dagger.android
+    implementation libraries.rx.java
+    implementation libraries.rx.android
+    implementation libraries.room.runtime
+    implementation libraries.android.swipeRefresh
+}

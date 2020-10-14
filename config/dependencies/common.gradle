@@ -1,0 +1,9 @@
+/**
+ * Declare all dependencies for the common layer
+ * */
+dependencies {
+    def libraries = rootProject.ext.libraries
+
+    implementation libraries.gson
+    implementation libraries.retrofit.retrofit
+}

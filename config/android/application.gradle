@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: "com.apollographql.apollo"
+
+android {
+    compileSdkVersion rootProject.ext.versions.build.android.compileSdk
+    buildToolsVersion rootProject.ext.versions.build.android.tools
+
+    defaultConfig {
+        applicationId "com.android.milkyway"
+        minSdkVersion rootProject.ext.versions.build.android.minSdk
+        targetSdkVersion rootProject.ext.versions.build.android.targetSdk
+        versionCode rootProject.ext.appVersionCode
+        versionName rootProject.ext.appVersionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

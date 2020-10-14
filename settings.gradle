@@ -1,0 +1,7 @@
+include ':presentation'
+include ':domain'
+include ':data'
+include ':common_test'
+include ':common'
+include ':app'
+rootProject.name = "Milky Way"
