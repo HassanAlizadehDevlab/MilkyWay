@@ -5,129 +5,17 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c27a7d3-c61c-4647-bdac-b27a692ee14a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_reactivestreams_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_2_5_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_android_support_2_4_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_api_jvm_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_http_cache_api_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_normalized_cache_api_jvm_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_normalized_cache_jvm_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_normalized_cache_sqlite_android_debug_2_4_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_runtime_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_apollographql_apollo_apollo_rx2_support_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_benasher44_uuid_jvm_0_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_28_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_28_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_28_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_lint_aar_2_28_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockitokotlin2_mockito_kotlin_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_4_8_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_10_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_8_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_sqldelight_runtime_jvm_1_4_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_19_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_26_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_2_26_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" afterDir="false" />
@@ -135,15 +23,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/android/application.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config/android/application.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dependencies/data.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config/dependencies/data.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/datasource/repositories/RepositoriesDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/datasource/repositories/RepositoriesDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_15" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -159,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -178,35 +68,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="add_unversioned_files" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/src/main" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/src/main/java/com/android/data/extension" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/src/main/graphql/com/apollographql/apollo/data" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.android.data.repository.datasource.repositories" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.android.data.network" />
       <recent name="com.android.presentation" />
       <recent name="com.android.domain.entity" />
       <recent name="com.android.domain" />
       <recent name="com.android.data.executor" />
-      <recent name="com.android.data.entity" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.android.data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/extension" />
+      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/entity/model/remote/repository" />
+      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/network" />
       <recent name="$PROJECT_DIR$/data/src/main" />
       <recent name="$PROJECT_DIR$/app/src/main/graphql/com/android/milkyway" />
-      <recent name="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/common/executor" />
-      <recent name="$PROJECT_DIR$/domain/src/main/java/com/android/domain/executor" />
-      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/executor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common_test/src/test/resources/json" />
+      <recent name="$PROJECT_DIR$/data/src/main/graphql/com/apollographql/apollo/data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android JUnit.SmartRepositoriesDataSourceTest">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -239,6 +140,90 @@
     </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="SmartRepositoriesDataSourceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartRepositoriesDataSourceTest.error on fetching repositories from server" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="METHOD_NAME" value="error on fetching repositories from server" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartRepositoriesDataSourceTest.fetch more repositories from server" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="METHOD_NAME" value="fetch more repositories from server" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartRepositoriesDataSourceTest.fetch repositories from server" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="METHOD_NAME" value="fetch repositories from server" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartRepositoriesDataSourceTest.load repositories from DB" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="METHOD_NAME" value="load repositories from DB" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -313,6 +298,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest" />
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest.fetch more repositories from server" />
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest.error on fetching repositories from server" />
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest.load repositories from DB" />
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest.fetch repositories from server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -332,10 +326,19 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="211" y="-875" key="#Plugins/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602681554606" />
-    <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602694622616">
+    <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602780900612">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602694622616" />
+    <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602780900612" />
+    <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602765798553" />
+    <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602775395038">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602775395038" />
+    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser" timestamp="1602759174923">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602759174923" />
     <state x="93" y="-608" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602670858053">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
@@ -344,27 +347,135 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="374" y="-653" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602670859322" />
-    <state x="259" y="100" key="CommitChangelistDialog2" timestamp="1602704610603">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="259" y="100" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602704610603" />
-    <state x="128" y="69" key="DiffContextDialog" timestamp="1602704122980">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602704122980" />
-    <state x="263" y="-783" width="695" height="486" key="find.popup" timestamp="1602694116517">
+    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602708373450">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="263" y="-783" width="695" height="486" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602694116517" />
+    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602708373450" />
+    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate" timestamp="1602781237263">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602781237263" />
+    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602723953949">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602723953949" />
+    <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602787507324">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="40" y="-945" key="CommitChangelistDialog2/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787507324" />
+    <state x="259" y="100" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602704630205" />
+    <state width="878" height="466" key="DebuggerActiveHint" timestamp="1602780048189">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="878" height="466" key="DebuggerActiveHint/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602780048189" />
+    <state x="-157" y="-987" key="DiffContextDialog" timestamp="1602787503841">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787503841" />
+    <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602704122980" />
+    <state width="1878" height="446" key="GridCell.Tab.0.bottom" timestamp="1602787401471">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787401471" />
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602705499199" />
+    <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602786844830" />
+    <state width="1878" height="446" key="GridCell.Tab.0.center" timestamp="1602787401469">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="446" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787401469" />
+    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602705499198" />
+    <state width="1878" height="446" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602786844822" />
+    <state width="1878" height="446" key="GridCell.Tab.0.left" timestamp="1602787401468">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="446" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787401468" />
+    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602705499196" />
+    <state width="1878" height="446" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602786844820" />
+    <state width="1878" height="446" key="GridCell.Tab.0.right" timestamp="1602787401470">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="446" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787401470" />
+    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602705499198" />
+    <state width="1878" height="446" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602786844827" />
+    <state width="1878" height="434" key="GridCell.Tab.1.bottom" timestamp="1602787255239">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="434" key="GridCell.Tab.1.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787255239" />
+    <state width="1878" height="368" key="GridCell.Tab.1.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781882" />
+    <state width="1878" height="434" key="GridCell.Tab.1.center" timestamp="1602787255238">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="434" key="GridCell.Tab.1.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787255238" />
+    <state width="1878" height="368" key="GridCell.Tab.1.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781880" />
+    <state width="1878" height="434" key="GridCell.Tab.1.left" timestamp="1602787255237">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="434" key="GridCell.Tab.1.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787255237" />
+    <state width="1878" height="368" key="GridCell.Tab.1.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781879" />
+    <state width="1878" height="434" key="GridCell.Tab.1.right" timestamp="1602787255238">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="434" key="GridCell.Tab.1.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787255238" />
+    <state width="1878" height="368" key="GridCell.Tab.1.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781881" />
+    <state x="388" y="-755" key="chooseDestDirectoryDialog" timestamp="1602723815431">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="388" y="-755" key="chooseDestDirectoryDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602723815431" />
+    <state x="263" y="-783" width="760" height="486" key="find.popup" timestamp="1602777818147">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="263" y="-783" width="760" height="486" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777818147" />
+    <state x="408" y="220" width="695" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602706873168" />
     <state x="263" y="-783" width="695" height="486" key="find.popup/0.23.1280.777/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602615872839" />
-    <state width="300" height="81" key="javadoc.popup.new" timestamp="1602703523777">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="450" height="110" key="javadoc.popup.new" timestamp="1602787353192">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="300" height="81" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1602703523777" />
-    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup" timestamp="1602703246524">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="450" height="110" key="javadoc.popup.new/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602787353192" />
+    <state width="300" height="81" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1602706393821" />
+    <state width="450" height="110" key="javadoc.popup.new/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602709220998" />
+    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1602723815479">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602694300848" />
-    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602703246524" />
+    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602723815479" />
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602779718504">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602779718504" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602706790814" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-api-jvm/2.4.1/57e92fad64f1282bcc2a8b132e3505e7440bee45/apollo-api-jvm-2.4.1-sources.jar!/commonMain/com/apollographql/apollo/api/internal/json/BufferedSourceJsonReader.kt</url>
+          <line>814</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-normalized-cache-api-jvm/2.4.1/7a41d91a46833d6d270885215314bb906c2f3da1/apollo-normalized-cache-api-jvm-2.4.1-sources.jar!/commonMain/com/apollographql/apollo/cache/normalized/RecordFieldJsonAdapter.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/2.4.1/9e22d5c0c60e7c3811aa8dd9e85db7c28a2fbe3c/apollo-runtime-2.4.1-sources.jar!/com/apollographql/apollo/subscription/OperationServerMessage.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-api-jvm/2.4.1/57e92fad64f1282bcc2a8b132e3505e7440bee45/apollo-api-jvm-2.4.1-sources.jar!/commonMain/com/apollographql/apollo/api/internal/json/BufferedSourceJsonReader.kt</url>
+          <line>25</line>
+          <properties class="com.apollographql.apollo.api.internal.json.BufferedSourceJsonReader">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="AndroidJUnit">
+        <watch expression="repositoryDao" language="kotlin" />
+        <watch expression="query" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
