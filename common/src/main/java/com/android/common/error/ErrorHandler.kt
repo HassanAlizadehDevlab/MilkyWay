@@ -1,8 +1,7 @@
 package com.android.common.error
 
-import com.google.gson.Gson
+import com.apollographql.apollo.api.Error
 import io.reactivex.exceptions.CompositeException
-import retrofit2.HttpException
 import java.io.IOException
 import java.net.SocketTimeoutException
 
@@ -13,9 +12,6 @@ object ErrorHandler {
 
     fun convert(throwable: Throwable): Throwable {
         return when (throwable) {
-//            is HttpException -> {
-//                parseError(ErrorCode.ERROR_HAPPENED_MESSAGE, throwable.code())
-//            }
             is SocketTimeoutException -> {
                 ErrorThrowable(ErrorCode.ERROR_TIMEOUT, ErrorCode.ERROR_TIMEOUT_MESSAGE)
             }
@@ -45,30 +41,15 @@ object ErrorHandler {
         return error
     }
 
-    private fun parseError(errorBody: String?, httpCode: Int = 0): ErrorThrowable {
+    fun parseError(errors: List<Error>?): ErrorThrowable {
         return try {
-            val result = Gson().fromJson(errorBody, ErrorModel::class.java)
+            val result = errors?.joinToString { it.message }
             ErrorThrowable(
-                httpCode,
-                result.error.errorMessage
+                ErrorCode.ERROR_HAPPENED,
+                result
             )
         } catch (e: Exception) {
             ErrorThrowable(ErrorCode.ERROR_HAPPENED, ErrorCode.ERROR_HAPPENED_MESSAGE)
         }
     }
-
-    fun isNetworkError(throwable: Throwable): Int? {
-        if (throwable is CompositeException)
-            throwable.exceptions.forEach {
-                if (
-                    it is ErrorThrowable &&
-                    (it.code == ErrorCode.ERROR_IO || it.code == ErrorCode.ERROR_TIMEOUT)
-                ) return it.code
-            }
-        if (throwable is ErrorThrowable && (throwable.code == ErrorCode.ERROR_IO || throwable.code == ErrorCode.ERROR_TIMEOUT))
-            return throwable.code
-
-        return null
-    }
-
 }
