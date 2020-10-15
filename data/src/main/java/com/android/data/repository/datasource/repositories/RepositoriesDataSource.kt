@@ -9,6 +9,7 @@ import io.reactivex.Flowable
  */
 interface RepositoriesDataSource {
     fun fetchRepositories(): Completable
+    fun fetchMoreRepositories(): Completable
 
     /**
      * first is the list of repositories
