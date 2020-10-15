@@ -1,0 +1,70 @@
+{
+  "data": {
+    "search": {
+      "__typename": "SearchResultItemConnection",
+      "pageInfo": {
+        "__typename": "PageInfo",
+        "startCursor": "Y3Vyc29yOjQx",
+        "endCursor": "Y3Vyc29yOjQ1",
+        "hasNextPage": true
+      },
+      "nodes": [
+        {
+          "__typename": "Repository",
+          "id": "MDEwOlJlcG9zaXRvcnkxMjA0OTcyOQ==",
+          "name": "regl-network-graph",
+          "createdAt": "2013-08-12T06:54:37Z",
+          "nameWithOwner": "adnan-wahab/regl-network-graph",
+          "url": "https://github.com/adnan-wahab/regl-network-graph",
+          "description": "Open-source JavaScript network-graph visualization library using regl and d3",
+          "forkCount": 38,
+          "stargazerCount": 450
+        },
+        {
+          "__typename": "Repository",
+          "id": "MDEwOlJlcG9zaXRvcnkzNTkxMzE3",
+          "name": "stapes",
+          "createdAt": "2012-03-01T11:20:53Z",
+          "nameWithOwner": "hay/stapes",
+          "url": "https://github.com/hay/stapes",
+          "description": "the Javascript MVC microframework that does just enough",
+          "forkCount": 62,
+          "stargazerCount": 447
+        },
+        {
+          "__typename": "Repository",
+          "id": "MDEwOlJlcG9zaXRvcnkzMTA2MTU3",
+          "name": "SWSnapshotStackView",
+          "createdAt": "2012-01-04T22:58:14Z",
+          "nameWithOwner": "snwau/SWSnapshotStackView",
+          "url": "https://github.com/snwau/SWSnapshotStackView",
+          "description": "Snapshot Stack View cocoa touch class decorates your UIImage's for presentation to the user with matte border, drop shadows and simulated stack of physical photos.",
+          "forkCount": 68,
+          "stargazerCount": 445
+        },
+        {
+          "__typename": "Repository",
+          "id": "MDEwOlJlcG9zaXRvcnkyMDc0MDIzNw==",
+          "name": "spark-server",
+          "createdAt": "2014-06-11T20:28:57Z",
+          "nameWithOwner": "particle-iot/spark-server",
+          "url": "https://github.com/particle-iot/spark-server",
+          "description": "UNMAINTAINED - An API compatible open source server for interacting with devices speaking the spark-protocol",
+          "forkCount": 135,
+          "stargazerCount": 444
+        },
+        {
+          "__typename": "Repository",
+          "id": "MDEwOlJlcG9zaXRvcnk0NzUyMjM=",
+          "name": "twitter-node",
+          "createdAt": "2010-01-16T19:08:42Z",
+          "nameWithOwner": "technoweenie/twitter-node",
+          "url": "https://github.com/technoweenie/twitter-node",
+          "description": "Discontinued:  check out nTwitter",
+          "forkCount": 562,
+          "stargazerCount": 445
+        }
+      ]
+    }
+  }
+}

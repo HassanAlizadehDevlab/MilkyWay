@@ -6,4 +6,5 @@ dependencies {
 
     implementation libraries.gson
     implementation libraries.retrofit.retrofit
+    implementation libraries.apollo.runtime
 }

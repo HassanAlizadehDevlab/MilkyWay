@@ -43,4 +43,5 @@ dependencies {
     implementation libraries.apollo.rxJava
 
     testImplementation project(':common_test')
+    testImplementation libraries.okHttp.mockServer
 }

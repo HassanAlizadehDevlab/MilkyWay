@@ -25,4 +25,5 @@ dependencies {
     testImplementation libraries.test.mockito.kotlin
     testImplementation libraries.test.mockito.inline
     testImplementation libraries.retrofit.retrofit
+    testImplementation libraries.apollo.runtime
 }

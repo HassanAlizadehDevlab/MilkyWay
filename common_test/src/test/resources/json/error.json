@@ -1,0 +1,7 @@
+{
+  "errors": [
+    {
+      "message": "Field '__typename' doesn't exist on type 'SearchResultItemConnection'"
+    }
+  ]
+}
