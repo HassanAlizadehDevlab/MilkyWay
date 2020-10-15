@@ -1,12 +1,16 @@
-query LoadRepositories($after: String!) {
+query LoadRepositories($after: String) {
   search(query: "is:public", type: REPOSITORY, first: 40, after: $after) {
+    __typename
     pageInfo {
+      __typename
       startCursor
       endCursor
       hasNextPage
     }
     nodes {
+      __typename
       ... on Repository {
+        __typename
         id
         name
         createdAt
