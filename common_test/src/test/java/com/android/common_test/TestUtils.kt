@@ -1,5 +1,7 @@
 package com.android.common_test
 
+import com.android.common.error.ErrorCode
+import com.android.common.error.ErrorThrowable
 import com.android.data.LoadRepositoriesQuery
 import com.android.data.entity.mapper.map
 import com.android.data.entity.model.local.RepositoryEntity
@@ -94,5 +96,7 @@ object TestUtils {
             }
         }
     }
+
+    fun error(): ErrorThrowable = ErrorThrowable(ErrorCode.ERROR_HAPPENED)
 
 }
