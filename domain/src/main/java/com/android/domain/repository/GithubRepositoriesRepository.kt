@@ -7,7 +7,7 @@ import io.reactivex.Flowable
 /**
  * Created by hassanalizadeh on 15,October,2020
  */
-interface RepositoriesRepository {
+interface GithubRepositoriesRepository {
     fun fetchRepositories(): Completable
     fun fetchMoreRepositories(): Completable
     fun loadRepositories(): Flowable<RepositoriesObject>
