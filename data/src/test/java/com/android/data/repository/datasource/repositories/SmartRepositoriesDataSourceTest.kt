@@ -17,14 +17,16 @@ import okhttp3.mockwebserver.MockWebServer
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.junit.runners.JUnit4
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.MockitoAnnotations
 
-
 /**
  * Created by hassanalizadeh on 15,October,2020
  */
+@RunWith(JUnit4::class)
 class SmartRepositoriesDataSourceTest {
 
     @get:Rule
