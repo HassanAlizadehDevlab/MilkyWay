@@ -1,10 +1,8 @@
 package com.android.domain
 
+import com.android.domain.entity.DetailObject
 import com.android.domain.entity.RepositoriesObject
-import com.android.domain.executor.transformer.AsyncCTransformer
-import com.android.domain.executor.transformer.AsyncFTransformer
-import com.android.domain.executor.transformer.CTransformer
-import com.android.domain.executor.transformer.FTransformer
+import com.android.domain.executor.transformer.*
 import dagger.Binds
 import dagger.Module
 
@@ -23,5 +21,10 @@ abstract class DomainModule {
     abstract fun githubRepositoriesTransformer(
         transformer: AsyncFTransformer<RepositoriesObject>
     ): FTransformer<RepositoriesObject>
+
+    @Binds
+    abstract fun detailTransformer(
+        transformer: AsyncSTransformer<DetailObject>
+    ): STransformer<DetailObject>
 
 }
