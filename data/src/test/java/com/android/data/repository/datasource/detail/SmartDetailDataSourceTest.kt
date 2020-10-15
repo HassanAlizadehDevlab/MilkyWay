@@ -37,12 +37,12 @@ class SmartDetailDataSourceTest {
 
 
     @Test
-    fun `get contributors`() {
+    fun `fetch contributors`() {
         // GIVEN
         val owner = "mojombo"
         val repo = "grit"
         val perPage = 5
-        Mockito.doReturn(Single.just(mutableListOf(TestUtils.fetchContributors())))
+        Mockito.doReturn(Single.just(TestUtils.fetchContributors()))
             .whenever(service)
             .getContributors(anyString(), anyString(), anyInt())
 
