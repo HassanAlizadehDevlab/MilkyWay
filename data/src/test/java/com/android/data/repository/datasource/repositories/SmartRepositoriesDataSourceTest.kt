@@ -11,6 +11,7 @@ import com.apollographql.apollo.fetcher.ApolloResponseFetchers
 import com.nhaarman.mockitokotlin2.*
 import io.reactivex.Completable
 import io.reactivex.Flowable
+import io.reactivex.Single
 import okhttp3.Dispatcher
 import okhttp3.OkHttpClient
 import okhttp3.mockwebserver.MockWebServer
@@ -19,6 +20,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
+import org.mockito.ArgumentMatchers.anyString
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.MockitoAnnotations
@@ -146,6 +148,24 @@ class SmartRepositoriesDataSourceTest {
         verify(repositoriesDao).insert(argThat {
             this.size == TestUtils.repositoriesSize()
         })
+    }
+
+    @Test
+    fun `get single repository by name`() {
+        // GIVEN
+        val reposName = "mojombo"
+        val repository = TestUtils.loadRepositoriesFromDB()?.get(0)
+        doReturn(Single.just(repository))
+            .whenever(repositoriesDao).select(anyString())
+
+        // WHEN
+        dataSource.getRepository(reposName)
+            .test()
+            .assertValue(repository)
+            .assertComplete()
+
+        // THEN
+        verify(repositoriesDao).select(anyString())
     }
 
 }

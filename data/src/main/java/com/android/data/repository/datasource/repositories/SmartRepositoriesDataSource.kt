@@ -19,7 +19,7 @@ import javax.inject.Inject
  */
 open class SmartRepositoriesDataSource @Inject constructor(
     private val service: ApolloClient,
-    private val repositoryDao: RepositoriesDao
+    private val repositoriesDao: RepositoriesDao
 ) : RepositoriesDataSource {
 
     @Volatile
@@ -29,7 +29,7 @@ open class SmartRepositoriesDataSource @Inject constructor(
     private var endCursor: String? = null
 
     override fun loadRepositories(): Flowable<Pair<List<RepositoryEntity>, Boolean>> {
-        return repositoryDao.selectAll()
+        return repositoriesDao.selectAll()
             .map {
                 it to hasNextPage
             }.onError()
@@ -55,6 +55,10 @@ open class SmartRepositoriesDataSource @Inject constructor(
             .onError()
     }
 
+    override fun getRepository(name: String): Single<RepositoryEntity> {
+        return repositoriesDao.select(name)
+    }
+
     private fun getGithubRepositories(params: LoadRepositoriesQuery): Single<Response<LoadRepositoriesQuery.Data>> {
         return Single.fromObservable(service.rxQuery(params))
     }
@@ -65,12 +69,12 @@ open class SmartRepositoriesDataSource @Inject constructor(
             it.map()
         }
         if (repositories.isNullOrEmpty()) return Completable.complete()
-        return Completable.fromAction { repositoryDao.insert(repositories) }
+        return Completable.fromAction { repositoriesDao.insert(repositories) }
             .onError()
     }
 
     private fun clearRepositories(): Completable {
-        return Completable.fromAction { repositoryDao.deleteAll() }
+        return Completable.fromAction { repositoriesDao.deleteAll() }
     }
 
     private fun checkError(response: Response<LoadRepositoriesQuery.Data>): Single<Response<LoadRepositoriesQuery.Data>> {
