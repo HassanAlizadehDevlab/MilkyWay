@@ -43,7 +43,7 @@ class JobExecutor @Inject constructor() : ThreadExecutor {
     }
 
     companion object {
-        private const val THREAD_NAME = "james_webb_custom_thread_"
+        private const val THREAD_NAME = "milky_way_custom_thread_"
         private const val INITIAL_POOL_SIZE = 3
         private const val MAX_POOL_SIZE = 5
         private const val KEEP_ALIVE_TIME = 10L
