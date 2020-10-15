@@ -38,10 +38,8 @@ dependencies {
     implementation libraries.okHttp.logging
     implementation libraries.room.runtime
     implementation libraries.room.rxJava
-    implementation libraries.apollo.runtime
     implementation libraries.apollo.android
     implementation libraries.apollo.rxJava
 
     testImplementation project(':common_test')
-    testImplementation libraries.okHttp.mockServer
 }

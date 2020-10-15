@@ -43,10 +43,12 @@ android {
         implementation libraries.dagger.android
         implementation libraries.rx.java
         implementation libraries.rx.android
+        implementation libraries.apollo.runtime
 
         testImplementation libraries.rx.java
         testImplementation libraries.test.junit
         testImplementation libraries.test.mockito.core
         testImplementation libraries.test.mockito.kotlin
+        testImplementation libraries.okHttp.mockServer
     }
 }
