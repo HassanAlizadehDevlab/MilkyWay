@@ -1,6 +1,7 @@
 package com.android.data.repository
 
 import com.android.common_test.TestUtils
+import com.android.data.entity.mapper.map
 import com.android.data.repository.datasource.repositories.RepositoriesDataSource
 import com.android.domain.repository.GithubRepositoriesRepository
 import com.nhaarman.mockitokotlin2.doReturn
@@ -8,10 +9,12 @@ import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.whenever
 import io.reactivex.Completable
 import io.reactivex.Flowable
+import io.reactivex.Single
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
+import org.mockito.ArgumentMatchers.anyString
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
 
@@ -79,5 +82,22 @@ class GithubRepositoriesRepositoryImplTest {
 
         //THEN
         verify(dataSource).fetchMoreRepositories()
+    }
+
+    @Test
+    fun `get repository by name`() {
+        //GIVEN
+        val repoName = "mojombo"
+        val repo = TestUtils.loadRepositoriesFromDB()?.get(0)
+        doReturn(Single.just(repo)).whenever(dataSource).getRepository(anyString())
+
+        //WHEN
+        repository.getRepositoryByName(repoName)
+            .test()
+            .assertValue(repo?.map())
+            .assertComplete()
+
+        //THEN
+        verify(dataSource).getRepository(repoName)
     }
 }

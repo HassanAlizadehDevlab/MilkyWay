@@ -3,9 +3,11 @@ package com.android.data.repository
 import com.android.data.entity.mapper.map
 import com.android.data.repository.datasource.repositories.RepositoriesDataSource
 import com.android.domain.entity.RepositoriesObject
+import com.android.domain.entity.RepositoryObject
 import com.android.domain.repository.GithubRepositoriesRepository
 import io.reactivex.Completable
 import io.reactivex.Flowable
+import io.reactivex.Single
 import javax.inject.Inject
 
 /**
@@ -25,6 +27,10 @@ class GithubRepositoriesRepositoryImpl @Inject constructor(
 
     override fun loadRepositories(): Flowable<RepositoriesObject> {
         return dataSource.loadRepositories().map { it.map() }
+    }
+
+    override fun getRepositoryByName(name: String): Single<RepositoryObject> {
+        return dataSource.getRepository(name).map { it.map() }
     }
 
 }
