@@ -1,23 +1,21 @@
-query LoadRepositories ($after : String!){
-  search(query: "is:public", type: REPOSITORY, first : 40, after: $after) {
+query LoadRepositories($after: String!) {
+  search(query: "is:public", type: REPOSITORY, first: 40, after: $after) {
     pageInfo {
       startCursor
       endCursor
       hasNextPage
     }
-    edges {
-      node {
-        ...RepositoryFragment
+    nodes {
+      ... on Repository {
+        id
+        name
+        createdAt
+        nameWithOwner
+        url
+        description
+        forkCount
+        stargazerCount
       }
     }
   }
-}
-
-fragment RepositoryFragment on Repository {
-  nameWithOwner
-  createdAt
-  stargazerCount
-  forkCount
-  description
-  url
 }
