@@ -7,4 +7,4 @@ data class ContributorObject(
     val id: Int,
     val login: String,
     val avatar_url: String,
-)
+): DomainObject

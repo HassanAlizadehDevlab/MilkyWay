@@ -6,4 +6,4 @@ package com.android.domain.entity
 data class RepositoriesObject(
     val repositories: List<RepositoryObject>?,
     val hasNextPage: Boolean
-): DomainObject
+)
