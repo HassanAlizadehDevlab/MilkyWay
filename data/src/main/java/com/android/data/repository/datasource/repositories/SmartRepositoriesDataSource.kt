@@ -1,6 +1,5 @@
 package com.android.data.repository.datasource.repositories
 
-import androidx.annotation.VisibleForTesting
 import com.android.common.error.ErrorHandler
 import com.android.data.LoadRepositoriesQuery
 import com.android.data.entity.dao.RepositoriesDao

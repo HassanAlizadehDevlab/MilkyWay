@@ -21,6 +21,12 @@ class NetworkModule {
 
     @Provides
     @Reusable
+    fun contributorsDataService(retrofit: Retrofit): DataServiceContributors =
+        retrofit.create(DataServiceContributors::class.java)
+
+
+    @Provides
+    @Reusable
     fun apolloClient(okHttpClient: OkHttpClient): ApolloClient = ApolloClient.builder()
         .serverUrl(BuildConfig.BASE_URL_GRAPHQL)
         .okHttpClient(okHttpClient)
