@@ -45,7 +45,7 @@ class GithubRepositoriesRepositoryImplTest {
             .test()
             .assertValue {
                 it.hasNextPage == hasNextPage
-                it.repositories.size == repositories?.size
+                it.repositories?.size == repositories?.size
             }
             .assertComplete()
 

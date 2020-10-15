@@ -3,6 +3,9 @@ package com.android.common_test
 import com.android.data.LoadRepositoriesQuery
 import com.android.data.entity.mapper.map
 import com.android.data.entity.model.local.RepositoryEntity
+import com.android.data.entity.model.remote.Contributor
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import okhttp3.mockwebserver.MockResponse
 import okio.ByteString.Companion.readByteString
 import java.io.IOException
@@ -12,6 +15,11 @@ import java.util.concurrent.*
  * Created by hassanalizadeh on 15,October,2020
  */
 object TestUtils {
+
+    fun fetchContributors(): List<Contributor> {
+        val listType = object : TypeToken<List<Contributor>>() {}.type
+        return Gson().fromJson(readFileToString("contributors.json"), listType) as List<Contributor>
+    }
 
     fun getEndCursor(): String? {
         val result = readFileToString("repositories.json")
