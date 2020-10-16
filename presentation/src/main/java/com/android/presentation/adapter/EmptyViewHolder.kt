@@ -10,6 +10,6 @@ class EmptyViewHolder(val view: View) : BaseViewHolder<DomainObject>(view) {
 
     override fun getType(): Int = 0
 
-    override fun bind(data: DomainObject?) {}
+    override fun bind(data: DomainObject) {}
 
 }
