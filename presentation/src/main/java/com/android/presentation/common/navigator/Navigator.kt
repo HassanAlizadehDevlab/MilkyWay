@@ -21,15 +21,16 @@ class Navigator @Inject constructor(
 
     fun showRepositories() {
         fragmentManager.addFragment(
-            R.id.fragmentContainer,
-            RepositoryFragment.newInstance()
+            containerViewId = R.id.fragmentContainer,
+            fragment = RepositoryFragment.newInstance()
         )
     }
 
     fun showDetail(nameWithOwner: String) {
         fragmentManager.addFragment(
-            R.id.fragmentContainer,
-            DetailFragment.newInstance(nameWithOwner)
+            containerViewId = R.id.fragmentContainer,
+            fragment = DetailFragment.newInstance(nameWithOwner),
+            tag = DetailFragment::class.java.name
         )
     }
 
