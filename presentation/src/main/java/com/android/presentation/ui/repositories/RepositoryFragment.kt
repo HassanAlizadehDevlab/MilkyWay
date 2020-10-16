@@ -36,7 +36,7 @@ class RepositoryFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener 
             viewModel.observeClicks(holder.observe())
         }
 
-        observe(viewModel.repositories, ::observeLaunches)
+        observe(viewModel.repositories, ::observeRepositories)
         observe(viewModel.isRefreshing, ::observeRefreshing)
         observe(viewModel.clickObservable, ::observeActions)
         observe(viewModel.messageObservable, ::showMessage)
@@ -82,7 +82,7 @@ class RepositoryFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener 
         )
     }
 
-    private fun observeLaunches(repositories: MutableList<RepositoryObject>?) {
+    private fun observeRepositories(repositories: MutableList<RepositoryObject>?) {
         repositories?.let {
             adapter.addItems(repositories)
         }
