@@ -54,7 +54,14 @@ class NetworkModule {
             .readTimeout(TIME_OUT, TimeUnit.SECONDS)
             .retryOnConnectionFailure(true)
             .addInterceptor(loggingInterceptor)
-            .addInterceptor(AuthInterceptor())
+            .addInterceptor { chain ->
+                chain.proceed(
+                    chain.request().newBuilder().addHeader(
+                        "Authorization",
+                        "Bearer ${BuildConfig.KEY}"
+                    ).build()
+                )
+            }
             .build()
     }
 
