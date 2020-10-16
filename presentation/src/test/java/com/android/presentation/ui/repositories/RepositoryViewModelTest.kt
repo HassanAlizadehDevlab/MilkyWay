@@ -10,12 +10,11 @@ import com.android.domain.usecase.invoke
 import com.android.domain.usecase.repositories.FetchMoreRepositoriesUseCase
 import com.android.domain.usecase.repositories.FetchRepositoriesUseCase
 import com.android.domain.usecase.repositories.LoadRepositoriesUseCase
-import com.nhaarman.mockitokotlin2.argThat
-import com.nhaarman.mockitokotlin2.mock
-import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.whenever
+import com.android.presentation.adapter.LoadMoreState
+import com.nhaarman.mockitokotlin2.*
 import io.reactivex.Completable
 import io.reactivex.Flowable
+import io.reactivex.subjects.PublishSubject
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -66,7 +65,7 @@ class RepositoryViewModelTest {
     @Test
     fun `success on loading repositories from DB`() {
         // GIVEN
-        dataExistsForLoadingRepositories()
+        dataExistsForLoadingRepositoriesWithHasNextPage()
         val repositoriesSize = TestUtils.repositoriesSize()
         val repositoriesObserver = mock<(List<RepositoryObject>?) -> Unit>()
         createViewModel()
@@ -82,13 +81,68 @@ class RepositoryViewModelTest {
         assert(viewModel.hasNextPage)
     }
 
+    @Test
+    fun `call fetch more repositories`() {
+        //GIVEN
+        dataExistsForLoadingRepositoriesWithHasNextPage()
+        dataExistsForFetchMoreRepositories()
+        val loadMoreObservable = Mockito.spy(PublishSubject.create<LoadMoreState>())
+        createViewModel()
+        viewModel.loadMoreObserver(loadMoreObservable)
+
+        //WHEN
+        loadMoreObservable.onNext(LoadMoreState.LOAD)
+
+        //THEN
+        assert(viewModel.hasNextPage)
+        verify(fetchMoreRepositoriesUseCase).invoke()
+        verify(loadMoreObservable).onNext(LoadMoreState.NOT_LOAD)
+    }
+
+    @Test
+    fun `reach to end of the list and can't call fetch more repositories`() {
+        //GIVEN
+        dataExistsForLoadingRepositoriesWithoutHasNextPage()
+        dataExistsForFetchMoreRepositories()
+        val loadMoreObservable = Mockito.spy(PublishSubject.create<LoadMoreState>())
+        val repositoriesObserver = mock<(List<RepositoryObject>?) -> Unit>()
+        createViewModel()
+        viewModel.repositories.observe(repositoriesObserver)
+        viewModel.loadMoreObserver(loadMoreObservable)
+
+        //WHEN
+        loadMoreObservable.onNext(LoadMoreState.LOAD)
+
+        //THEN
+        assert(!viewModel.hasNextPage)
+        verify(fetchMoreRepositoriesUseCase, never()).invoke()
+        verify(loadMoreObservable).onNext(LoadMoreState.FINISH)
+    }
+
     private fun dataExistsForRefreshRepositories() {
         Mockito.doReturn(Completable.complete())
             .whenever(fetchRepositoriesUseCase).invoke()
     }
 
-    private fun dataExistsForLoadingRepositories() {
+    private fun dataExistsForFetchMoreRepositories() {
+        Mockito.doReturn(Completable.complete())
+            .whenever(fetchMoreRepositoriesUseCase).invoke()
+    }
+
+    private fun dataExistsForLoadingRepositoriesWithHasNextPage() {
         val hasNextPage = true
+        Mockito.doReturn(
+            Flowable.just(
+                RepositoriesObject(
+                    TestUtils.loadRepositoriesFromDB()?.map(),
+                    hasNextPage
+                )
+            )
+        ).whenever(loadRepositoriesUseCase).invoke()
+    }
+
+    private fun dataExistsForLoadingRepositoriesWithoutHasNextPage() {
+        val hasNextPage = false
         Mockito.doReturn(
             Flowable.just(
                 RepositoriesObject(
