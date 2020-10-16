@@ -36,6 +36,7 @@ class RepositoryFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener 
             viewModel.observeClicks(holder.observe())
         }
 
+        viewModel.loadMoreObserver(adapter.getLoadMoreObservable())
         observe(viewModel.repositories, ::observeRepositories)
         observe(viewModel.isRefreshing, ::observeRefreshing)
         observe(viewModel.clickObservable, ::observeActions)

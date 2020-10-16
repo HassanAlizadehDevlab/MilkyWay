@@ -10,7 +10,9 @@ import com.android.domain.usecase.invoke
 import com.android.domain.usecase.repositories.FetchMoreRepositoriesUseCase
 import com.android.domain.usecase.repositories.FetchRepositoriesUseCase
 import com.android.domain.usecase.repositories.LoadRepositoriesUseCase
+import com.android.presentation.adapter.BaseAction
 import com.android.presentation.adapter.LoadMoreState
+import com.android.presentation.ui.repositories.adapter.ViewRepositoryAction
 import com.nhaarman.mockitokotlin2.*
 import io.reactivex.Completable
 import io.reactivex.Flowable
@@ -117,6 +119,23 @@ class RepositoryViewModelTest {
         assert(!viewModel.hasNextPage)
         verify(fetchMoreRepositoriesUseCase, never()).invoke()
         verify(loadMoreObservable).onNext(LoadMoreState.FINISH)
+    }
+
+    @Test
+    fun `click on a repository`() {
+        //GIVEN
+        val action = ViewRepositoryAction(TestUtils.loadRepositoriesFromDB()?.get(0)?.nameWithOwner!!)
+        val clickObservable = PublishSubject.create<BaseAction>()
+        val observer = mock<(BaseAction) -> Unit>()
+        createViewModel()
+        viewModel.clickObservable.observe(observer)
+        viewModel.observeClicks(clickObservable)
+
+        //WHEN
+        clickObservable.onNext(action)
+
+        //THEN
+        verify(observer).invoke(action)
     }
 
     private fun dataExistsForRefreshRepositories() {
