@@ -1,0 +1,50 @@
+package com.android.presentation.ui.repositories
+
+import androidx.annotation.VisibleForTesting
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.LiveDataReactiveStreams
+import androidx.lifecycle.MutableLiveData
+import com.android.domain.entity.RepositoriesObject
+import com.android.domain.entity.RepositoryObject
+import com.android.domain.usecase.invoke
+import com.android.domain.usecase.repositories.FetchMoreRepositoriesUseCase
+import com.android.domain.usecase.repositories.FetchRepositoriesUseCase
+import com.android.domain.usecase.repositories.LoadRepositoriesUseCase
+import com.android.presentation.adapter.LoadMoreState
+import com.android.presentation.common.extension.map
+import com.android.presentation.common.view.BaseViewModel
+import io.reactivex.subjects.PublishSubject
+import javax.inject.Inject
+
+/**
+ * Created by hassanalizadeh on 16,October,2020
+ */
+class RepositoryViewModel @Inject constructor(
+    private val fetchRepositoriesUseCase: FetchRepositoriesUseCase,
+    private val fetchMoreRepositoriesUseCase: FetchMoreRepositoriesUseCase,
+    private val loadRepositoriesUseCase: LoadRepositoriesUseCase
+) : BaseViewModel() {
+
+    private val _repositories: LiveData<RepositoriesObject> =
+        LiveDataReactiveStreams.fromPublisher(loadRepositoriesUseCase.invoke())
+
+    val repositories: LiveData<List<RepositoryObject>?> = _repositories.map {
+        hasNextPage = it.hasNextPage
+        it.repositories
+    }
+    val isRefreshing = MutableLiveData<Boolean>()
+
+    @VisibleForTesting
+    var hasNextPage: Boolean = true
+
+
+    fun refresh() {
+        isRefreshing.value = true
+        fetchRepositoriesUseCase.invoke()
+            .doOnEvent { isRefreshing.value = false }
+            .onError()
+            .subscribe()
+            .track()
+    }
+
+}
