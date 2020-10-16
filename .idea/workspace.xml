@@ -6,14 +6,21 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c27a7d3-c61c-4647-bdac-b27a692ee14a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/GithubRepositoriesRepositoryImplTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/data/data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/android/domain/repository/RepositoriesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/android/domain/repository/GithubRepositoriesRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/adapter_repository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/adapter_repository.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_repositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_repositories.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -62,8 +69,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/data/src/test/java/com/android/data/repository" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/src/main/java/com/android/data/extension" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/presentation/src/test/java/com/android/presentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/presentation/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -71,32 +78,35 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.android.presentation.ui.repositories" />
+      <recent name="com.android.domain.usecase.detail" />
       <recent name="com.android.data.repository" />
-      <recent name="com.android.data.repository.datasource.repositories" />
+      <recent name="com.android.data.repository.datasource.detail" />
+      <recent name="com.android.domain.usecase.repositories" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.android.data.network" />
-      <recent name="com.android.presentation" />
+      <recent name="com.android.presentation.adapter" />
       <recent name="com.android.domain.entity" />
-      <recent name="com.android.domain" />
-      <recent name="com.android.data.executor" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.android.data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/extension" />
-      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/entity/model/remote/repository" />
-      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/network" />
-      <recent name="$PROJECT_DIR$/data/src/main" />
-      <recent name="$PROJECT_DIR$/app/src/main/graphql/com/android/milkyway" />
+      <recent name="com.android.presentation.ui.repositories.adapter" />
+      <recent name="com.android.presentation.common.utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common_test/src/test/resources/json" />
       <recent name="$PROJECT_DIR$/data/src/main/graphql/com/apollographql/apollo/data" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.android.data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/presentation/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/presentation/src/main/res" />
+      <recent name="$PROJECT_DIR$/common_test/src/test/java/com/android/common_test" />
+      <recent name="$PROJECT_DIR$/data/src/main/java/com/android/data/entity/model/remote" />
+      <recent name="$PROJECT_DIR$/domain/src/main/java/com/android/domain/usecase" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.GithubRepositoriesRepositoryImplTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -130,82 +140,84 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration name="GithubRepositoriesRepositoryImplTest (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
+    <configuration name="RepositoryViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.data.repository.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.GithubRepositoriesRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubRepositoriesRepositoryImplTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
+    <configuration name="RepositoryViewModelTest.call fetch more repositories" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.data.repository.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.GithubRepositoriesRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GithubRepositoriesRepositoryImplTest.load repositories" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.android.data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.android.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.GithubRepositoriesRepositoryImplTest" />
-      <option name="METHOD_NAME" value="load repositories" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
+      <option name="METHOD_NAME" value="call fetch more repositories" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartRepositoriesDataSourceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
+    <configuration name="RepositoryViewModelTest.click on a repository" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
+      <option name="METHOD_NAME" value="click on a repository" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartRepositoriesDataSourceTest.fetch more repositories from server" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
+    <configuration name="RepositoryViewModelTest.reach to end of the list and can't call fetch more repositories" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
-      <option name="METHOD_NAME" value="fetch more repositories from server" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
+      <option name="METHOD_NAME" value="reach to end of the list and can't call fetch more repositories" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryViewModelTest.success on loading repositories from DB" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="presentation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
+      <option name="METHOD_NAME" value="success on loading repositories from DB" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -219,7 +231,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -287,13 +299,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.GithubRepositoriesRepositoryImplTest" />
-        <item itemvalue="Android JUnit.GithubRepositoriesRepositoryImplTest.load repositories" />
-        <item itemvalue="Android JUnit.GithubRepositoriesRepositoryImplTest (1)" />
-        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest" />
-        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest.fetch more repositories from server" />
+        <item itemvalue="Android JUnit.RepositoryViewModelTest.click on a repository" />
+        <item itemvalue="Android JUnit.RepositoryViewModelTest.call fetch more repositories" />
+        <item itemvalue="Android JUnit.RepositoryViewModelTest.reach to end of the list and can't call fetch more repositories" />
+        <item itemvalue="Android JUnit.RepositoryViewModelTest.success on loading repositories from DB" />
+        <item itemvalue="Android JUnit.RepositoryViewModelTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -313,19 +328,20 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="211" y="-875" key="#Plugins/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602681554606" />
-    <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602780900612">
-      <screen x="-349" y="-1080" width="1920" height="1080" />
+    <state x="67" y="74" width="1147" height="652" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602811858169">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602780900612" />
+    <state x="67" y="74" width="1147" height="652" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602811858169" />
     <state x="-249" y="-980" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602765798553" />
     <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602775395038">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="244" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602775395038" />
-    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser" timestamp="1602759174923">
+    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser" timestamp="1602812165305">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602759174923" />
+    <state x="390" y="-817" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812165305" />
+    <state x="493" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1602803598123" />
     <state x="93" y="-608" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602670858053">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
@@ -334,10 +350,10 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="374" y="-653" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602670859322" />
-    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602788275760">
+    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602795669610">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788275760" />
+    <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795669610" />
     <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate" timestamp="1602789382835">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
@@ -346,89 +362,96 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602723953949" />
-    <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602789527974">
+    <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602816139199">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="40" y="-945" key="CommitChangelistDialog2/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789527974" />
-    <state x="259" y="100" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602704630205" />
+    <state x="40" y="-945" key="CommitChangelistDialog2/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816139199" />
+    <state x="259" y="100" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602805152539" />
     <state width="878" height="466" key="DebuggerActiveHint" timestamp="1602780048189">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="878" height="466" key="DebuggerActiveHint/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602780048189" />
-    <state x="-157" y="-987" key="DiffContextDialog" timestamp="1602789448849">
+    <state x="-157" y="-987" key="DiffContextDialog" timestamp="1602816131453">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789448849" />
-    <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602704122980" />
-    <state width="1878" height="446" key="GridCell.Tab.0.bottom" timestamp="1602789452699">
+    <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816131453" />
+    <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602805149695" />
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom" timestamp="1602816186548">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789452699" />
-    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602705499199" />
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186548" />
+    <state width="1238" height="298" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602810537048" />
     <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984675" />
-    <state width="1878" height="446" key="GridCell.Tab.0.center" timestamp="1602789452697">
+    <state width="1878" height="443" key="GridCell.Tab.0.center" timestamp="1602816186545">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="446" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789452697" />
-    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602705499198" />
+    <state width="1878" height="443" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186545" />
+    <state width="1238" height="298" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
     <state width="1878" height="446" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984672" />
-    <state width="1878" height="446" key="GridCell.Tab.0.left" timestamp="1602789452695">
+    <state width="1878" height="443" key="GridCell.Tab.0.left" timestamp="1602816186544">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="446" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789452695" />
-    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602705499196" />
+    <state width="1878" height="443" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186544" />
+    <state width="1238" height="298" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602810537046" />
     <state width="1878" height="446" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984670" />
-    <state width="1878" height="446" key="GridCell.Tab.0.right" timestamp="1602789452698">
+    <state width="1878" height="443" key="GridCell.Tab.0.right" timestamp="1602816186547">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="446" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789452698" />
-    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602705499198" />
+    <state width="1878" height="443" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186547" />
+    <state width="1238" height="298" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
     <state width="1878" height="446" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984673" />
-    <state width="1878" height="434" key="GridCell.Tab.1.bottom" timestamp="1602789411414">
+    <state width="1238" height="290" key="GridCell.Tab.1.bottom" timestamp="1602812519461">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789411414" />
+    <state width="1238" height="290" key="GridCell.Tab.1.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519461" />
+    <state width="1238" height="290" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602810507005" />
     <state width="1878" height="368" key="GridCell.Tab.1.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781882" />
-    <state width="1878" height="434" key="GridCell.Tab.1.center" timestamp="1602789411411">
+    <state width="1238" height="290" key="GridCell.Tab.1.center" timestamp="1602812519459">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789411411" />
+    <state width="1238" height="290" key="GridCell.Tab.1.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519459" />
+    <state width="1238" height="290" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1602810507002" />
     <state width="1878" height="368" key="GridCell.Tab.1.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781880" />
-    <state width="1878" height="434" key="GridCell.Tab.1.left" timestamp="1602789411409">
+    <state width="1238" height="290" key="GridCell.Tab.1.left" timestamp="1602812519458">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789411409" />
+    <state width="1238" height="290" key="GridCell.Tab.1.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519458" />
+    <state width="1238" height="290" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1602810507002" />
     <state width="1878" height="368" key="GridCell.Tab.1.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781879" />
-    <state width="1878" height="434" key="GridCell.Tab.1.right" timestamp="1602789411412">
+    <state width="1238" height="290" key="GridCell.Tab.1.right" timestamp="1602812519460">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789411412" />
+    <state width="1238" height="290" key="GridCell.Tab.1.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519460" />
+    <state width="1238" height="290" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1602810507004" />
     <state width="1878" height="368" key="GridCell.Tab.1.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781881" />
-    <state x="388" y="-755" key="chooseDestDirectoryDialog" timestamp="1602788536674">
+    <state x="491" y="241" key="chooseDestDirectoryDialog" timestamp="1602806932444">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="388" y="-755" key="chooseDestDirectoryDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795620204" />
+    <state x="491" y="241" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932444" />
+    <state x="263" y="-783" width="852" height="550" key="find.popup" timestamp="1602815080324">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="388" y="-755" key="chooseDestDirectoryDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788536674" />
-    <state x="263" y="-783" width="852" height="550" key="find.popup" timestamp="1602788978854">
-      <screen x="-349" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="263" y="-783" width="852" height="550" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788978854" />
-    <state x="408" y="220" width="695" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602706873168" />
+    <state x="263" y="-783" width="852" height="550" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602815080324" />
+    <state x="408" y="220" width="695" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602805350396" />
     <state x="263" y="-783" width="695" height="486" key="find.popup/0.23.1280.777/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602615872839" />
-    <state width="450" height="110" key="javadoc.popup.new" timestamp="1602788865147">
+    <state width="450" height="110" key="javadoc.popup.new" timestamp="1602857111235">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="450" height="110" key="javadoc.popup.new/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788865147" />
-    <state width="300" height="81" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1602706393821" />
+    <state width="450" height="110" key="javadoc.popup.new/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602857111235" />
+    <state width="300" height="81" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1602811214520" />
     <state width="450" height="110" key="javadoc.popup.new/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602709220998" />
-    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1602788536708">
+    <state width="300" height="81" key="javadoc.popup.new/0.23.1280.710@0.23.1280.710" timestamp="1602804796571" />
+    <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1602806932521">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795620242" />
+    <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932521" />
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602857103126">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788536708" />
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602789492926">
-      <screen x="-349" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789492926" />
-    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602706790814" />
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602857103126" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602811011812" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,14 +465,6 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-normalized-cache-api-jvm/2.4.1/7a41d91a46833d6d270885215314bb906c2f3da1/apollo-normalized-cache-api-jvm-2.4.1-sources.jar!/commonMain/com/apollographql/apollo/cache/normalized/RecordFieldJsonAdapter.kt</url>
           <line>41</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/data/src/main/java/com/android/data/entity/mapper/MapperEntityToObject.kt</url>
-          <line>15</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/2.4.1/9e22d5c0c60e7c3811aa8dd9e85db7c28a2fbe3c/apollo-runtime-2.4.1-sources.jar!/com/apollographql/apollo/subscription/OperationServerMessage.java</url>
