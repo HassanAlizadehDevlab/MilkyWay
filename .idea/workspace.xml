@@ -11,24 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c27a7d3-c61c-4647-bdac-b27a692ee14a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/data/data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/android/milkyway/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dependencies/data.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config/dependencies/data.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/android/domain/usecase/detail/FetchDetailUseCaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/android/domain/usecase/detail/FetchDetailUseCaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/common/navigator/Navigator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/common/navigator/Navigator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/detail/DetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/repositories/RepositoryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/repositories/RepositoryViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +102,7 @@
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/android/domain/usecase" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.SmartRepositoriesDataSourceTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -378,44 +362,44 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="467" y="-768" key="AndroidProcessChooserDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862645064" />
-    <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602816139199">
+    <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602864515001">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="40" y="-945" key="CommitChangelistDialog2/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816139199" />
+    <state x="40" y="-945" key="CommitChangelistDialog2/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864515001" />
     <state x="259" y="100" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1602805152539" />
     <state width="878" height="466" key="DebuggerActiveHint" timestamp="1602780048189">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="878" height="466" key="DebuggerActiveHint/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602780048189" />
-    <state x="-157" y="-987" key="DiffContextDialog" timestamp="1602816131453">
+    <state x="-157" y="-987" key="DiffContextDialog" timestamp="1602864513009">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816131453" />
+    <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864513009" />
     <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602805149695" />
-    <state width="1878" height="443" key="GridCell.Tab.0.bottom" timestamp="1602864122175">
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom" timestamp="1602864837816">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="443" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122175" />
     <state width="1238" height="298" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602810537048" />
-    <state width="1878" height="431" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777736" />
-    <state width="1878" height="443" key="GridCell.Tab.0.center" timestamp="1602864122173">
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864837815" />
+    <state width="1878" height="443" key="GridCell.Tab.0.center" timestamp="1602864837807">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="443" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122173" />
     <state width="1238" height="298" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
-    <state width="1878" height="431" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777735" />
-    <state width="1878" height="443" key="GridCell.Tab.0.left" timestamp="1602864122172">
+    <state width="1878" height="443" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864837807" />
+    <state width="1878" height="443" key="GridCell.Tab.0.left" timestamp="1602864837805">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="443" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122172" />
     <state width="1238" height="298" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602810537046" />
-    <state width="1878" height="431" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777734" />
-    <state width="1878" height="443" key="GridCell.Tab.0.right" timestamp="1602864122174">
+    <state width="1878" height="443" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864837805" />
+    <state width="1878" height="443" key="GridCell.Tab.0.right" timestamp="1602864837814">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1878" height="443" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122174" />
     <state width="1238" height="298" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
-    <state width="1878" height="431" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777736" />
+    <state width="1878" height="443" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864837814" />
     <state width="1878" height="431" key="GridCell.Tab.1.bottom" timestamp="1602862777739">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
@@ -467,10 +451,10 @@
     </state>
     <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602858813496" />
     <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932521" />
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602863861352">
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602864728012">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602863861352" />
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864728012" />
     <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602811011812" />
   </component>
   <component name="XDebuggerManager">
