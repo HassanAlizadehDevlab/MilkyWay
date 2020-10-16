@@ -16,7 +16,7 @@ abstract class BaseViewHolder<T: DomainObject>(view: View) : RecyclerView.ViewHo
 
     abstract fun getType(): Int
 
-    abstract fun bind(data: DomainObject)
+    abstract fun bind(data: DomainObject?)
 
     fun observe(): Observable<BaseAction> {
         return mSubject.hide()
