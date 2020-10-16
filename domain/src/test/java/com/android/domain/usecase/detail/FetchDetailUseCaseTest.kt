@@ -66,12 +66,11 @@ class FetchDetailUseCaseTest {
 
 
     @Test
-    fun `execute on error`() {
+    fun `execute will fail on error in loading repository from DB`() {
         // GIVEN
         val ownerWithRepo = "adnan-wahab/regl-network-graph"
         val owner = ownerWithRepo.split("/")[0]
         val repo = ownerWithRepo.split("/")[1]
-        val repository = TestUtils.loadRepositoriesFromDB()?.map()?.get(0)!!
         val contributors = TestUtils.fetchContributors().map()
         doReturn(Single.error<ErrorThrowable>(TestUtils.error())).whenever(githubRepository)
             .getRepositoryByName(anyString())
@@ -82,6 +81,34 @@ class FetchDetailUseCaseTest {
         useCase.invoke(ownerWithRepo)
             .test()
             .assertNotComplete()
+
+        // THEN
+        verify(githubRepository).getRepositoryByName(ownerWithRepo)
+        verify(detailRepository).fetchContributors(owner, repo)
+    }
+
+
+    @Test
+    fun `execute sill be success on error in fetching contributors from remote`() {
+        // GIVEN
+        val ownerWithRepo = "adnan-wahab/regl-network-graph"
+        val owner = ownerWithRepo.split("/")[0]
+        val repo = ownerWithRepo.split("/")[1]
+        val repository = TestUtils.loadRepositoriesFromDB()?.map()?.get(0)!!
+        val contributors = TestUtils.fetchContributors().map()
+        doReturn(Single.just(repository)).whenever(githubRepository)
+            .getRepositoryByName(anyString())
+        doReturn(Single.error<ErrorThrowable>(TestUtils.error())).whenever(detailRepository)
+            .fetchContributors(anyString(), anyString())
+
+        // WHEN
+        useCase.invoke(ownerWithRepo)
+            .test()
+            .assertValue {response ->
+                response.repository == repository
+                response.contributors.isNullOrEmpty()
+            }
+            .assertComplete()
 
         // THEN
         verify(githubRepository).getRepositoryByName(ownerWithRepo)

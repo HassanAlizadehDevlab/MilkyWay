@@ -27,6 +27,7 @@ class FetchDetailUseCase @Inject constructor(
             return githubRepository.getRepositoryByName(param)
                 .zipWith(
                     detailRepository.fetchContributors(it[0], it[1])
+                        .onErrorReturn { listOf() }
                 ) { first, second ->
                     DetailObject(first, second)
                 }.compose(transformer)
