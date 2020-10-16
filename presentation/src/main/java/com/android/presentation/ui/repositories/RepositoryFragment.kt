@@ -16,6 +16,7 @@ import com.android.presentation.common.utils.Utils
 import com.android.presentation.common.view.BaseFragment
 import com.android.presentation.common.viewmodel.ViewModelProviderFactory
 import com.android.presentation.ui.repositories.adapter.RepositoryAdapter
+import com.android.presentation.ui.repositories.adapter.ViewRepositoryAction
 import kotlinx.android.synthetic.main.fragment_repositories.*
 import javax.inject.Inject
 
@@ -89,8 +90,11 @@ class RepositoryFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener 
         }
     }
 
-    private fun observeActions(actions: BaseAction) {
-        when (actions) {
+    private fun observeActions(action: BaseAction) {
+        when (action) {
+            is ViewRepositoryAction -> {
+                navigator.showDetail(action.data)
+            }
             else -> {
             }
         }

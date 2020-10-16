@@ -4,6 +4,7 @@ import androidx.fragment.app.FragmentManager
 import com.android.presentation.R
 import com.android.presentation.common.extension.addFragment
 import com.android.presentation.common.view.BaseActivityModule
+import com.android.presentation.ui.detail.DetailFragment
 import com.android.presentation.ui.repositories.RepositoryFragment
 import javax.inject.Inject
 import javax.inject.Named
@@ -15,13 +16,20 @@ import javax.inject.Named
  */
 class Navigator @Inject constructor(
     @Named(BaseActivityModule.ACTIVITY_FRAGMENT_MANAGER)
-    val fragmentManager: FragmentManager
+    private val fragmentManager: FragmentManager
 ) {
 
     fun showRepositories() {
         fragmentManager.addFragment(
             R.id.fragmentContainer,
             RepositoryFragment.newInstance()
+        )
+    }
+
+    fun showDetail(nameWithOwner: String) {
+        fragmentManager.addFragment(
+            R.id.fragmentContainer,
+            DetailFragment.newInstance(nameWithOwner)
         )
     }
 
