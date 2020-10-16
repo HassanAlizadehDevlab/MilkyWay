@@ -54,6 +54,7 @@ class NetworkModule {
             .readTimeout(TIME_OUT, TimeUnit.SECONDS)
             .retryOnConnectionFailure(true)
             .addInterceptor(loggingInterceptor)
+            .addInterceptor(AuthInterceptor())
             .build()
     }
 
