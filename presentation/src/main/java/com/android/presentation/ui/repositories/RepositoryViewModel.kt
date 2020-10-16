@@ -64,12 +64,7 @@ class RepositoryViewModel @Inject constructor(
         fetchMoreRepositoriesUseCase.invoke()
             .doOnEvent { onNext.invoke() }
             .onError()
-            .subscribe({
-                println("loadMoreRepositories success")
-            }, {
-                println("loadMoreRepositories failed")
-                it.printStackTrace()
-            })
+            .subscribe()
             .track()
     }
 

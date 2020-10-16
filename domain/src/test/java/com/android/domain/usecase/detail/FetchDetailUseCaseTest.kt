@@ -95,7 +95,6 @@ class FetchDetailUseCaseTest {
         val owner = ownerWithRepo.split("/")[0]
         val repo = ownerWithRepo.split("/")[1]
         val repository = TestUtils.loadRepositoriesFromDB()?.map()?.get(0)!!
-        val contributors = TestUtils.fetchContributors().map()
         doReturn(Single.just(repository)).whenever(githubRepository)
             .getRepositoryByName(anyString())
         doReturn(Single.error<ErrorThrowable>(TestUtils.error())).whenever(detailRepository)

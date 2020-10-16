@@ -6,11 +6,30 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c27a7d3-c61c-4647-bdac-b27a692ee14a" name="Default Changelist" comment="" />
+    <list default="true" id="1c27a7d3-c61c-4647-bdac-b27a692ee14a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common_test/common_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/data/data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/android/milkyway/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dependencies/data.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config/dependencies/data.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/android/data/repository/datasource/repositories/SmartRepositoriesDataSourceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/android/domain/usecase/detail/FetchDetailUseCaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/android/domain/usecase/detail/FetchDetailUseCaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/common/navigator/Navigator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/common/navigator/Navigator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/detail/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/repositories/RepositoryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/android/presentation/ui/repositories/RepositoryViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/fragment_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -51,27 +70,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_n920c-08160861df753704" />
+    <property name="DEBUGGABLE_PROCESS" value="com.android.milkyway" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/presentation/src/test/java/com/android/presentation" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/presentation/src/test/java/com/android/presentation/ui" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/presentation/src/main/res/layout" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.android.presentation.ui.detail" />
       <recent name="com.android.presentation.ui.repositories" />
       <recent name="com.android.domain.usecase.detail" />
       <recent name="com.android.data.repository" />
       <recent name="com.android.data.repository.datasource.detail" />
-      <recent name="com.android.domain.usecase.repositories" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.android.data.network" />
@@ -95,7 +118,7 @@
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/android/domain/usecase" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit.SmartRepositoriesDataSourceTest">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -129,85 +152,84 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration name="RepositoryViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetailViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.detail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.detail" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.detail.DetailViewModelTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryViewModelTest.call fetch more repositories" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetailViewModelTest.load detail and check contributors were set" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.detail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
-      <option name="METHOD_NAME" value="call fetch more repositories" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.detail" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.detail.DetailViewModelTest" />
+      <option name="METHOD_NAME" value="load detail and check contributors were set" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryViewModelTest.click on a repository" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetailViewModelTest.load detail and show loading" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="presentation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="PATTERN" value="com.android.presentation.ui.detail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
-      <option name="METHOD_NAME" value="click on a repository" />
+      <option name="PACKAGE_NAME" value="com.android.presentation.ui.detail" />
+      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.detail.DetailViewModelTest" />
+      <option name="METHOD_NAME" value="load detail and show loading" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryViewModelTest.reach to end of the list and can't call fetch more repositories" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="presentation" />
+    <configuration name="FetchDetailUseCaseTest.execute sill be success on error in fetching contributors from remote" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="PATTERN" value="com.android.domain.usecase.detail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
-      <option name="METHOD_NAME" value="reach to end of the list and can't call fetch more repositories" />
+      <option name="PACKAGE_NAME" value="com.android.domain.usecase.detail" />
+      <option name="MAIN_CLASS_NAME" value="com.android.domain.usecase.detail.FetchDetailUseCaseTest" />
+      <option name="METHOD_NAME" value="execute sill be success on error in fetching contributors from remote" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryViewModelTest.success on loading repositories from DB" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="presentation" />
+    <configuration name="SmartRepositoriesDataSourceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.android.presentation.ui.repositories.*" />
+          <option name="PATTERN" value="com.android.data.repository.datasource.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.android.presentation.ui.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.android.presentation.ui.repositories.RepositoryViewModelTest" />
-      <option name="METHOD_NAME" value="success on loading repositories from DB" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.android.data.repository.datasource.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.android.data.repository.datasource.repositories.SmartRepositoriesDataSourceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -288,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.RepositoryViewModelTest.click on a repository" />
-        <item itemvalue="Android JUnit.RepositoryViewModelTest.call fetch more repositories" />
-        <item itemvalue="Android JUnit.RepositoryViewModelTest.reach to end of the list and can't call fetch more repositories" />
-        <item itemvalue="Android JUnit.RepositoryViewModelTest.success on loading repositories from DB" />
-        <item itemvalue="Android JUnit.RepositoryViewModelTest" />
+        <item itemvalue="Android JUnit.SmartRepositoriesDataSourceTest" />
+        <item itemvalue="Android JUnit.DetailViewModelTest" />
+        <item itemvalue="Android JUnit.DetailViewModelTest.load detail and check contributors were set" />
+        <item itemvalue="Android JUnit.DetailViewModelTest.load detail and show loading" />
+        <item itemvalue="Android JUnit.FetchDetailUseCaseTest.execute sill be success on error in fetching contributors from remote" />
       </list>
     </recent_temporary>
   </component>
@@ -343,14 +365,19 @@
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
     <state x="198" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795669610" />
-    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate" timestamp="1602789382835">
+    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate" timestamp="1602862746452">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602789382835" />
-    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602723953949">
+    <state x="353" y="-806" width="941" height="579" key="#xdebugger.evaluate/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862746452" />
+    <state x="353" y="-806" key="#xdebugger.evaluate/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862680599" />
+    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602863815418">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602723953949" />
+    <state x="354" y="-691" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602863815418" />
+    <state x="467" y="-768" key="AndroidProcessChooserDialog" timestamp="1602862645065">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="467" y="-768" key="AndroidProcessChooserDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862645064" />
     <state x="40" y="-945" key="CommitChangelistDialog2" timestamp="1602816139199">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
@@ -365,81 +392,85 @@
     </state>
     <state x="-157" y="-987" key="DiffContextDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816131453" />
     <state x="128" y="69" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1602805149695" />
-    <state width="1878" height="443" key="GridCell.Tab.0.bottom" timestamp="1602816186548">
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom" timestamp="1602864122175">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="443" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186548" />
+    <state width="1878" height="443" key="GridCell.Tab.0.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122175" />
     <state width="1238" height="298" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602810537048" />
-    <state width="1878" height="446" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984675" />
-    <state width="1878" height="443" key="GridCell.Tab.0.center" timestamp="1602816186545">
+    <state width="1878" height="431" key="GridCell.Tab.0.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777736" />
+    <state width="1878" height="443" key="GridCell.Tab.0.center" timestamp="1602864122173">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="443" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186545" />
+    <state width="1878" height="443" key="GridCell.Tab.0.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122173" />
     <state width="1238" height="298" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
-    <state width="1878" height="446" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984672" />
-    <state width="1878" height="443" key="GridCell.Tab.0.left" timestamp="1602816186544">
+    <state width="1878" height="431" key="GridCell.Tab.0.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777735" />
+    <state width="1878" height="443" key="GridCell.Tab.0.left" timestamp="1602864122172">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="443" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186544" />
+    <state width="1878" height="443" key="GridCell.Tab.0.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122172" />
     <state width="1238" height="298" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602810537046" />
-    <state width="1878" height="446" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984670" />
-    <state width="1878" height="443" key="GridCell.Tab.0.right" timestamp="1602816186547">
+    <state width="1878" height="431" key="GridCell.Tab.0.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777734" />
+    <state width="1878" height="443" key="GridCell.Tab.0.right" timestamp="1602864122174">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="443" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602816186547" />
+    <state width="1878" height="443" key="GridCell.Tab.0.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602864122174" />
     <state width="1238" height="298" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602810537047" />
-    <state width="1878" height="446" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602788984673" />
-    <state width="1238" height="290" key="GridCell.Tab.1.bottom" timestamp="1602812519461">
+    <state width="1878" height="431" key="GridCell.Tab.0.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777736" />
+    <state width="1878" height="431" key="GridCell.Tab.1.bottom" timestamp="1602862777739">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1238" height="290" key="GridCell.Tab.1.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519461" />
+    <state width="1878" height="431" key="GridCell.Tab.1.bottom/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862646345" />
     <state width="1238" height="290" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602810507005" />
-    <state width="1878" height="368" key="GridCell.Tab.1.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781882" />
-    <state width="1238" height="290" key="GridCell.Tab.1.center" timestamp="1602812519459">
+    <state width="1878" height="431" key="GridCell.Tab.1.bottom/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777739" />
+    <state width="1878" height="431" key="GridCell.Tab.1.center" timestamp="1602862777738">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1238" height="290" key="GridCell.Tab.1.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519459" />
+    <state width="1878" height="431" key="GridCell.Tab.1.center/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862646343" />
     <state width="1238" height="290" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1602810507002" />
-    <state width="1878" height="368" key="GridCell.Tab.1.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781880" />
-    <state width="1238" height="290" key="GridCell.Tab.1.left" timestamp="1602812519458">
+    <state width="1878" height="431" key="GridCell.Tab.1.center/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777738" />
+    <state width="1878" height="431" key="GridCell.Tab.1.left" timestamp="1602862777737">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1238" height="290" key="GridCell.Tab.1.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519458" />
+    <state width="1878" height="431" key="GridCell.Tab.1.left/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862646342" />
     <state width="1238" height="290" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1602810507002" />
-    <state width="1878" height="368" key="GridCell.Tab.1.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781879" />
-    <state width="1238" height="290" key="GridCell.Tab.1.right" timestamp="1602812519460">
+    <state width="1878" height="431" key="GridCell.Tab.1.left/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777737" />
+    <state width="1878" height="431" key="GridCell.Tab.1.right" timestamp="1602862777738">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1238" height="290" key="GridCell.Tab.1.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602812519460" />
+    <state width="1878" height="431" key="GridCell.Tab.1.right/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862646344" />
     <state width="1238" height="290" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1602810507004" />
-    <state width="1878" height="368" key="GridCell.Tab.1.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602777781881" />
-    <state x="491" y="241" key="chooseDestDirectoryDialog" timestamp="1602806932444">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="388" y="-755" key="chooseDestDirectoryDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795620204" />
-    <state x="491" y="241" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932444" />
-    <state x="263" y="-783" width="852" height="550" key="find.popup" timestamp="1602815080324">
+    <state width="1878" height="431" key="GridCell.Tab.1.right/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862777738" />
+    <state x="112" y="-901" key="SettingsEditor" timestamp="1602862025656">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="263" y="-783" width="852" height="550" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602815080324" />
+    <state x="112" y="-901" key="SettingsEditor/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602862025656" />
+    <state x="388" y="-755" key="chooseDestDirectoryDialog" timestamp="1602858813442">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="388" y="-755" key="chooseDestDirectoryDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602858813442" />
+    <state x="491" y="241" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932444" />
+    <state x="263" y="-783" width="852" height="550" key="find.popup" timestamp="1602863138397">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="263" y="-783" width="852" height="550" key="find.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602863138397" />
     <state x="408" y="220" width="695" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602805350396" />
     <state x="263" y="-783" width="695" height="486" key="find.popup/0.23.1280.777/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602615872839" />
-    <state width="450" height="110" key="javadoc.popup.new" timestamp="1602857692152">
+    <state width="450" height="110" key="javadoc.popup.new" timestamp="1602863732551">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="450" height="110" key="javadoc.popup.new/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602857692152" />
+    <state width="450" height="110" key="javadoc.popup.new/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602863732551" />
     <state width="300" height="81" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1602811214520" />
     <state width="450" height="110" key="javadoc.popup.new/0.23.1280.710/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602709220998" />
     <state width="300" height="81" key="javadoc.popup.new/0.23.1280.710@0.23.1280.710" timestamp="1602804796571" />
-    <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1602806932521">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602795620242" />
-    <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932521" />
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602857103126">
+    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1602858813496">
       <screen x="-349" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602857103126" />
+    <state x="283" y="-806" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602858813496" />
+    <state x="421" y="203" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1602806932521" />
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602863861352">
+      <screen x="-349" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="276" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-349.-1080.1920.1080@-349.-1080.1920.1080" timestamp="1602863861352" />
     <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602811011812" />
   </component>
   <component name="XDebuggerManager">

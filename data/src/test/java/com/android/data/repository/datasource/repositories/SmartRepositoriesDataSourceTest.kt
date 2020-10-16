@@ -1,5 +1,6 @@
 package com.android.data.repository.datasource.repositories
 
+import androidx.test.filters.MediumTest
 import com.android.common_test.IdFieldCacheKeyResolver
 import com.android.common_test.TestUtils
 import com.android.data.LoadRepositoriesQuery
@@ -29,6 +30,7 @@ import org.mockito.MockitoAnnotations
  * Created by hassanalizadeh on 15,October,2020
  */
 @RunWith(JUnit4::class)
+@MediumTest
 class SmartRepositoriesDataSourceTest {
 
     @get:Rule
