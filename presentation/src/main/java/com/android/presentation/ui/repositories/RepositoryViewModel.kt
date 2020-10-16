@@ -47,4 +47,22 @@ class RepositoryViewModel @Inject constructor(
             .track()
     }
 
+    fun loadMoreObserver(loadMoreObservable: PublishSubject<LoadMoreState>) {
+        loadMoreObservable.subscribe {
+            if (it == LoadMoreState.LOAD)
+                if (!hasNextPage)
+                    loadMoreObservable.onNext(LoadMoreState.FINISH)
+                else
+                    loadMoreVenues { loadMoreObservable.onNext(LoadMoreState.NOT_LOAD) }
+        }.track()
+    }
+
+    private fun loadMoreVenues(onNext: () -> Unit) {
+        fetchMoreRepositoriesUseCase.invoke()
+            .doOnEvent { onNext.invoke() }
+            .onError()
+            .subscribe()
+            .track()
+    }
+
 }
